@@ -102,11 +102,23 @@ hr{
 
 
 }
-.bottom-footer a:hover{
-    color:tomato;
+.bottom-footer .btn{
+    border: none;
+    border-radius: 25px;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 32px;
+    margin: 10px;
+    width:50px;
+    background-color: white;
 }
+.btn:hover{
+    background-color: gray;
+}
+
 .bottom-footer p{
     color:white;
     margin-top: 10px;
+    transition: 0.4s;
 }
 
